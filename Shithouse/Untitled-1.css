@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  box-sizing: border-box;
+  /* break-inside: avoid-column; */
+  padding: 0;
+  margin: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+body {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block-start: 5rem;
+  font-family: Hanken Grotesk;
+}
+.Result {
+  background-color: blue;
+  width: 19rem;
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+  height: 30rem;
+  /* float: left; */
+  /* display: block;
+  margin-left: 50%; */
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+div {
+  /* height: 200px;
+  width: 50%; */
+  /* float: left; */
+  /* display: inline-block; */
+  /* display: flow-root; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-top: 5rem; */
+  flex-direction: row;
+}
+#seventy {
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: groove; */
+}
+.second {
+  background-color: whitesmoke;
+  width: 19rem;
+  height: 30rem;
+  border-radius: 30px;
+  display: block;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin-right: 50%; */
+  /* background: black; */
+  /* border: ridge; */
+  text-shadow: 15px;
+  /* float: right; */
+  border-right: 5px groove;
+  border-bottom: 5px;
+  margin-top: 0;
+  border-bottom-left-radius: 0;
+}
+/* div:hover {
+  color: coral;
+  background-color: black;
+}
+body:hover {
+  background-color: red;
+  transition-property: background;
+  transition-duration: 2s;
+} */
+.Reaction {
+  background: bisque;
+  border-radius: 10px;
+  height: 2.5rem;
+  width: 17rem;
+  color: red;
+  padding: 7px 30px;
+  line-height: 1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.Summary {
+  font-size: 1.4rem;
+  padding: 3rem 1.5rem 1.5rem 0;
+  margin-left: 1.5rem;
+}
+lightning {
+  color: brown;
+}
+.Memory {
+  color: yellow;
+  background-color: rgba(255, 255, 0, 0.2);
+  margin-left: 1.5rem;
+  height: 2.5rem;
+  width: 17rem;
+  border-radius: 10px;
+  padding: 7px 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.Verbal {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.2);
+  margin-left: 1.5rem;
+  height: 2.5rem;
+  width: 17rem;
+  border-radius: 10px;
+  padding: 7px 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.Visual {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.2);
+  margin-left: 1.5rem;
+  height: 2.5rem;
+  width: 17rem;
+  border-radius: 10px;
+  padding: 7px 30px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to bottom, purple, blue);
+  height: 2.5rem;
+  width: 17rem;
+  border-radius: 20px;
+  padding: 7px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+span {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  margin-block-start: -10px;
+}
+.numerals {
+  font-weight: bolder;
+  padding: 10px 0;
+}
+a:visited {
+  background-color: black;
+}
+.bolt {
+  font-size: 10px;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: white;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    width: 100%;
+  }
+  .Result {
+    width: 100%;
+  }
+}

@@ -1,0 +1,276 @@
+@import url(https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900);
+body {
+  box-sizing: border-box;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  font-family: League Spartan;
+  margin: 0;
+}
+.first {
+  display: flex;
+  background-color: white;
+  height: 47vh;
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+.container {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.heading {
+  background-color: white;
+  color: purple;
+  width: 20vw;
+  height: 40vh;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  float: left;
+  position: absolute;
+  left: 100px;
+}
+h1 {
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+.sub-heading {
+  background-color: white;
+  color: rgba(128, 0, 110, 0.7);
+  width: 28vw;
+  font-size: 17px;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
+.ratings {
+  background-color: white;
+  color: purple;
+  float: end;
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  left: 830px;
+  margin-top: 50px;
+}
+.one {
+  background-color: rgb(70, 6, 70);
+  color: white;
+  width: 25%;
+  height: 27vh;
+  border-radius: 10px;
+  margin-right: 1rem;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+.two {
+  background-color: rgb(70, 6, 70);
+  color: white;
+  width: 25%;
+  height: 27vh;
+  border-radius: 10px;
+  margin-right: 1rem;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+.three {
+  background-color: rgb(70, 6, 70);
+  color: white;
+  width: 25%;
+  height: 27vh;
+  border-radius: 10px;
+  margin-right: 1rem;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+.uno {
+  background-color: whitesmoke;
+  height: 3rem;
+  width: 24rem;
+  border-radius: 5px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  position: absolute;
+}
+.dos {
+  background-color: whitesmoke;
+  height: 3rem;
+  width: 24rem;
+  border-radius: 5px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 65px;
+  left: 20px;
+}
+.tres {
+  background-color: whitesmoke;
+  height: 3rem;
+  width: 24rem;
+  border-radius: 5px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 65px;
+  left: 40px;
+}
+img {
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 1rem;
+}
+.colton {
+  height: 3rem;
+  width: 6rem;
+  float: right;
+  margin-right: 180px;
+}
+.irene {
+  height: 3rem;
+  width: 6rem;
+  float: right;
+  margin-right: 180px;
+}
+.anne {
+  height: 3rem;
+  width: 6rem;
+  float: right;
+  margin-right: 180px;
+}
+span {
+  color: rgb(240, 32, 240);
+}
+.text {
+  width: 20rem;
+  line-height: 1.3rem;
+}
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .ratings {
+    margin-top: 19rem;
+    position: static;
+    left: 0;
+    right: 0;
+    margin-left: 90px;
+  }
+  .uno {
+    background-color: whitesmoke;
+    height: 3rem;
+    width: 24rem;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: static;
+  }
+  .dos {
+    background-color: whitesmoke;
+    height: 3rem;
+    width: 24rem;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: static;
+  }
+  .tres {
+    background-color: whitesmoke;
+    height: 3rem;
+    width: 24rem;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: static;
+  }
+  .heading {
+    width: 60vw;
+    height: 20vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+  }
+  .sub-heading {
+    width: 60vw;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .one {
+    background-color: rgb(70, 6, 70);
+    color: white;
+    height: 20vh;
+    border-radius: 10px;
+    margin-left: 70px;
+    width: 90vw;
+    position: static;
+    margin-bottom: 1rem;
+  }
+  .two {
+    background-color: rgb(70, 6, 70);
+    color: white;
+    height: 20vh;
+    border-radius: 10px;
+    width: 90vw;
+    position: static;
+    margin-left: 70px;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+  }
+  .three {
+    background-color: rgb(70, 6, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    height: 20vh;
+    border-radius: 10px;
+    width: 90vw;
+    position: static;
+    margin-left: 70px;
+    margin-bottom: 1rem;
+  }
+  .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 3rem;
+  }
+  .text {
+    line-height: 1.5rem;
+  }
+}

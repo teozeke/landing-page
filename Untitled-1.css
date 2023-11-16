@@ -1,0 +1,446 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+  display: grid;
+  margin: 0;
+}
+nav {
+  position: relative;
+}
+nav,
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: gray;
+  font-weight: 400;
+}
+.navbar {
+  margin: 0;
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  font-family: Open Sans;
+}
+.logo {
+  height: 4rem;
+  width: 9rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-right: 2rem;
+}
+.fylo {
+  width: 7rem;
+}
+.nav {
+  height: 4rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.beginning {
+  display: flex;
+  width: 80vw;
+  justify-content: end;
+}
+.illustration-1 {
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+.illustration-2 {
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  height: 12rem;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Raleway;
+  color: black;
+  font-weight: 700;
+}
+.sub-heading {
+  height: 6rem;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  font-family: Raleway;
+  margin-bottom: 2rem;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#email {
+  height: 3rem;
+  width: 70vw;
+  font-size: 20px;
+  padding-left: 2rem;
+  color: rgba(128, 128, 128, 0.3);
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.startcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start {
+  background-color: rgb(72, 72, 218);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 80vw;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+.starting {
+  color: white;
+  font-size: 20px;
+  font-family: Open Sans;
+}
+.two {
+  font-family: Raleway;
+}
+.header {
+  text-align: center;
+  font-size: 15px;
+  font-family: Raleway;
+  color: black;
+  font-weight: 700;
+}
+.paragraph {
+  margin-bottom: 1rem;
+  width: 99vw;
+  margin-left: 1rem;
+  font-family: Open Sans;
+  line-height: 22px;
+}
+.guide {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.guidance {
+  color: rgb(2, 95, 2);
+  text-decoration: underline green;
+  font-family: Open Sans;
+}
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bubble {
+  background-color: white;
+  height: 14rem;
+  width: 80vw;
+  border-radius: 10px;
+  border: groove 2px;
+  margin-bottom: 4rem;
+}
+.quotee {
+  width: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+.praise {
+  margin-left: 1rem;
+  font-family: Open Sans;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  line-height: 22px;
+}
+.picture {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.details {
+  width: 8rem;
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-family: Open Sans;
+  color: black;
+  font-weight: bolder;
+}
+.kyle {
+  height: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.title {
+  font-size: 10px;
+  color: gray;
+}
+.part3 {
+  height: 22rem;
+  width: 100%;
+  margin-left: 0;
+  /* margin-right: 0; */
+  background-color: hsl(238, 22%, 44%);
+}
+.box {
+  color: white;
+  /* display: flex; */
+  text-align: center;
+  font-size: 23px;
+  font-family: Raleway;
+  font-weight: bold;
+  height: 3rem;
+  padding-top: 1rem;
+  clear: both;
+}
+.head {
+  color: white;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: lighter;
+  width: 20rem;
+}
+.grouping {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.address {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#address {
+  height: 3rem;
+  width: 70vw;
+  font-size: 20px;
+  padding-left: 2rem;
+  color: rgba(128, 128, 128, 0.3);
+  border: solid 2px;
+  border-radius: 10px;
+}
+.begin {
+  background-color: rgb(72, 72, 218);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 80vw;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+.group2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.part4 {
+  background-color: hsl(243, 87%, 12%);
+  height: 39rem;
+  width: 100%;
+}
+.fylologo {
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
+.phonenumber {
+  color: white;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  font-family: Open Sans;
+  margin-bottom: 1rem;
+}
+.gmail {
+  color: white;
+  padding-left: 2rem;
+  font-family: Open Sans;
+  margin-bottom: 2rem;
+}
+.icon-phone {
+  margin-right: 1rem;
+}
+.icon-email {
+  margin-right: 1rem;
+}
+.toplink:hover {
+  color: blue;
+  transition: all;
+  transition: 1s;
+}
+.guidance:hover {
+  color: blue;
+  transition: all;
+  transition-duration: 1s;
+}
+.finallinks {
+  margin-bottom: 2rem;
+}
+.finallinks2 {
+  margin-bottom: 2rem;
+}
+.endinglinks {
+  color: white;
+  padding-left: 2rem;
+  font-family: Open Sans;
+  margin-bottom: 1rem;
+}
+.endinglinks:hover {
+  color: blue;
+  transition: all 1s;
+}
+@media (min-width: 600px) {
+  body {
+    display: flex;
+  }
+  .okan {
+    height: 50rem;
+    display: grid;
+  }
+  img {
+    float: right;
+  }
+  .illustration-1 {
+    width: 50vw;
+    float: right;
+  }
+  .illustration-2 {
+    width: 50vw;
+  }
+  .meji {
+    width: 50%;
+    height: 30rem;
+    margin-left: 1rem;
+    /* display: grid; */
+  }
+  .heading {
+    height: 4rem;
+    margin-bottom: 3rem;
+    display: grid;
+    text-align: start;
+    justify-content: start;
+    width: 29rem;
+  }
+  .sub-heading {
+    display: grid;
+    text-align: start;
+    width: 28rem;
+    padding-top: 3rem;
+  }
+  h1 {
+    text-align: start;
+  }
+  #email {
+    width: 18rem;
+    height: 2rem;
+    margin-right: 20px;
+  }
+  .start {
+    width: 15rem;
+    height: 2rem;
+  }
+  .inner {
+    display: flex;
+  }
+  .image {
+    float: right;
+    height: 888px;
+  }
+  .header {
+    text-align: start;
+    margin-left: 1rem;
+  }
+  .paragraph {
+    width: 27rem;
+  }
+  .part3 {
+    width: 100vw;
+    display: flex;
+  }
+  #address {
+    width: 30vw;
+  }
+  .begin {
+    width: 20vw;
+  }
+  .grouping {
+    display: block;
+    width: 30vw;
+    text-align: start;
+    margin-left: 2rem;
+    margin-right: 28rem;
+  }
+  .box {
+    text-align: start;
+    padding-top: 3rem;
+  }
+  .head {
+    text-align: start;
+  }
+  .group2 {
+    display: block;
+    justify-content: end;
+    padding-top: 3rem;
+  }
+  .bubble {
+    width: 30vw;
+    display: grid;
+  }
+  .part2 {
+    display: block;
+    margin-left: 1rem;
+  }
+  .guide {
+    display: block;
+    margin-left: 1rem;
+    text-align: start;
+  }
+  .icon-phone {
+    display: flex;
+    justify-content: start;
+  }
+  .phonenumber {
+    display: flex;
+    justify-content: start;
+    padding-top: 1rem;
+  }
+  .gmail {
+    display: flex;
+    justify-content: start;
+  }
+  .fylologo {
+    display: flex;
+    justify-content: start;
+    padding-top: 7rem;
+  }
+  .finallinks {
+    margin-right: 10rem;
+  }
+  .mother {
+    position: relative;
+    top: 50px;
+    left: 500px;
+    display: flex;
+  }
+  .details {
+    display: grid;
+  }
+  .quote {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+  }
+}
